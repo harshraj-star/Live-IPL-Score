@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Live-IPL-Score/static/css/main.bcfe57e8.chunk.css",
+    "main.js": "/Live-IPL-Score/static/js/main.1696ab54.chunk.js",
+    "main.js.map": "/Live-IPL-Score/static/js/main.1696ab54.chunk.js.map",
+    "runtime-main.js": "/Live-IPL-Score/static/js/runtime-main.fca33c29.js",
+    "runtime-main.js.map": "/Live-IPL-Score/static/js/runtime-main.fca33c29.js.map",
+    "static/js/2.cd2bbec0.chunk.js": "/Live-IPL-Score/static/js/2.cd2bbec0.chunk.js",
+    "static/js/2.cd2bbec0.chunk.js.map": "/Live-IPL-Score/static/js/2.cd2bbec0.chunk.js.map",
+    "index.html": "/Live-IPL-Score/index.html",
+    "precache-manifest.80320fe64d25b2f88c2dc04e2ce70c54.js": "/Live-IPL-Score/precache-manifest.80320fe64d25b2f88c2dc04e2ce70c54.js",
+    "service-worker.js": "/Live-IPL-Score/service-worker.js",
+    "static/css/main.bcfe57e8.chunk.css.map": "/Live-IPL-Score/static/css/main.bcfe57e8.chunk.css.map",
+    "static/js/2.cd2bbec0.chunk.js.LICENSE.txt": "/Live-IPL-Score/static/js/2.cd2bbec0.chunk.js.LICENSE.txt",
+    "static/media/vs.png": "/Live-IPL-Score/static/media/vs.377707a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fca33c29.js",
+    "static/js/2.cd2bbec0.chunk.js",
+    "static/css/main.bcfe57e8.chunk.css",
+    "static/js/main.1696ab54.chunk.js"
+  ]
+}
