@@ -1,25 +1,59 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import React , {useState , useEffect } from 'react';
 import './App.css';
+import Navbar from "./components/Navbar";
+import Mycard from "./components/Mycard";
+import { getMatches } from "./api/Api";
+import { Grid, Typography } from '@material-ui/core';
+
+
+
 
 function App() {
+
+  const [matches, setMatches] = useState([]);
+
+  useEffect(() => {
+    getMatches()
+      .then((data) => {
+        console.log(data);
+        setMatches(data.matches);
+      })
+      .catch((error) => {});
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar/>
+    
+    <h1> Free LIVE Updates</h1>
+    <Typography color="secondary" variant="h5">WATCH LIVE SCORE(Harsh Raj)</Typography>
+    <br/>
+                     
+    
+    <Grid container>
+    <Grid sm="3">
+    
+    </Grid>
+    <Grid sm="6">
+    {matches.map((match) => (
+      <>{(match.type=="Twenty20")? (<Mycard key={match.unique_id} match={match} />): (
+        ""
+      )}
+      </>
+              
+            ))}
+          </Grid>
+          
+        </Grid>
+
+
+
+    
+    
     </div>
+    
+    
   );
 }
 
