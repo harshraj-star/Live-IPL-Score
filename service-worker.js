@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Live-IPL-Score/precache-manifest.80320fe64d25b2f88c2dc04e2ce70c54.js"
+  "/Live-IPL-Score/precache-manifest.f578b9cf8c0bb6137e14f661b42008a3.js"
 );
 
 self.addEventListener('message', (event) => {

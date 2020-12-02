@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c19d977052edccee0f5298e8e046e56",
+    "revision": "a2092cebe38b5380d3edd7c8d7b03584",
     "url": "/Live-IPL-Score/index.html"
   },
   {
-    "revision": "584044bdc4db3f5e9b2b",
+    "revision": "c1b1d4cf601a6301b364",
     "url": "/Live-IPL-Score/static/css/main.bcfe57e8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Live-IPL-Score/static/js/2.cd2bbec0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "584044bdc4db3f5e9b2b",
-    "url": "/Live-IPL-Score/static/js/main.1696ab54.chunk.js"
+    "revision": "c1b1d4cf601a6301b364",
+    "url": "/Live-IPL-Score/static/js/main.f4007fa5.chunk.js"
   },
   {
     "revision": "1fcdd8d92c31fdacbe71",
