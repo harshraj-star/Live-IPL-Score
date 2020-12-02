@@ -14,7 +14,7 @@ const Navabar = () => {
             <IconButton edge="start"  color="inherit" aria-label="menu">
       <MenuIcon />
     </IconButton>
-                <Typography>WATCH LIVE SCORE (By: Harsh Raj)
+                <Typography>CRICKET DEKHO
                 </Typography>
             </Toolbar>
         </AppBar>

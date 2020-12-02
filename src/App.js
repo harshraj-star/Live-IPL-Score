@@ -27,7 +27,7 @@ function App() {
     <Navbar/>
     
     <h1> Free LIVE Updates</h1>
-    <Typography color="secondary" variant="h5">WATCH LIVE SCORE(Harsh Raj)</Typography>
+    <Typography color="secondary" variant="h5">WATCH LIVE SCORE</Typography>
     <br/>
                      
     
